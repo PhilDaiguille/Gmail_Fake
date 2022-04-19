@@ -82,6 +82,7 @@ header nav ul li:last-child{
 
 /* MAIN */
 main{
+	padding-top: 5rem;
 	width: 100%;
 	margin: 0 auto;
 }
