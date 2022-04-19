@@ -382,6 +382,49 @@ footer select option{
 	border: none;
 	background-color: #f8f9fa;
 }
-
+@media screen and (max-width:70rem) {
+	*{
+		flex-direction: column;
+		
+	}
+	header{
+		position: inherit;
+	}
+	header nav ul li{
+		margin: 1rem auto
+	}
+	main{
+		padding: 1rem;
+	}
+	main .join h2{
+		font-size: 3rem;
+	}
+	main .join h3{
+		font-size: 2rem;
+	}
+	main figure{
+		padding: 1rem;
+		display: block;
+		margin: 0 auto;
+	}
+	main .table{
+		grid-template-columns: repeat(1, 1fr);
+		padding: 1rem;
+	}
+	main figure figcaption ul {
+		display: block;
+		margin: 2rem auto;
+		justify-content: flex-end;
+		flex-direction: column;
+	  }
+	main .rep {
+		padding: 1rem;
+	}
+	footer{
+		padding: 1rem;
+		text-align: center;
+		line-height: 5vh;
+	}
+}
 
 /* @Copyright - PhilDaiguille*/
